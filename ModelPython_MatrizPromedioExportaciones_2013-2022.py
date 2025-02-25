@@ -10,8 +10,8 @@ import glob
 import os
 
 # Ruta donde se encuentran los archivos de Excel
-excel_folder_path = "C:/Users/masol/OneDrive/Escritorio/Solci/TFG/Matriz de Exportaciones (2013-2022)"
-output_file = "C:/Users/masol/OneDrive/Escritorio/Solci/TFG/promedio_exportaciones_filtrado.xlsx"
+excel_folder_path = "C:Insertar carpeta con las matrices de cada año" 
+output_file = "promedio_exportaciones_filtrado.xlsx"
 
 # Obtener una lista de todos los archivos Excel en la carpeta
 excel_files = glob.glob(f"{excel_folder_path}/*.xlsx")
